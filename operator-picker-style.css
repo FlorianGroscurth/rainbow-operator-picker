@@ -1,0 +1,23 @@
+body {
+	font-family: 'Arial';
+}
+
+.generate-button button {
+	padding: 10px 20px;
+	border: none;
+	background: #2499ff;
+	border-bottom: 5px solid #2499ff;
+	color: #24262a;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.1s ease-in-out;
+}
+
+.generate-button button:hover {
+	border-color: #00ffe5;
+
+	span {
+		scale: 1.2;
+	}
+}
